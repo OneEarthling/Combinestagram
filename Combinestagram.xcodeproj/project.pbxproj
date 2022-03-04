@@ -17,6 +17,7 @@
 		9CE7E5E61DE5A40A00C8BA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE7E5E51DE5A40A00C8BA5A /* Assets.xcassets */; };
 		9CE7E5E91DE5A40A00C8BA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE7E5E71DE5A40A00C8BA5A /* LaunchScreen.storyboard */; };
 		9CE7E5F11DE5A94600C8BA5A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9CE7E5F01DE5A94600C8BA5A /* Podfile */; };
+		CE19115E27D20F390085AD89 /* PHPhotoLibrary+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19115D27D20F390085AD89 /* PHPhotoLibrary+Rx.swift */; };
 		EED7F018B3EE510F74AF179B /* Pods_Combinestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A2F080F06441ABE4972E5 /* Pods_Combinestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		9CE7E5EA1DE5A40A00C8BA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CE7E5F01DE5A94600C8BA5A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A09A2F080F06441ABE4972E5 /* Pods_Combinestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Combinestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE19115D27D20F390085AD89 /* PHPhotoLibrary+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHPhotoLibrary+Rx.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				9CDD7B031DE5AABE0058B2D5 /* UIImage+Collage.swift */,
 				9CE7E5DC1DE5A40900C8BA5A /* AppDelegate.swift */,
 				9CDD7B0B1DE6E3D30058B2D5 /* PhotoWriter.swift */,
+				CE19115D27D20F390085AD89 /* PHPhotoLibrary+Rx.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			files = (
 				9CDD7B041DE5AABE0058B2D5 /* UIImage+Collage.swift in Sources */,
 				9CDD7B081DE6D7ED0058B2D5 /* PhotoCell.swift in Sources */,
+				CE19115E27D20F390085AD89 /* PHPhotoLibrary+Rx.swift in Sources */,
 				9CDD7B061DE5BC660058B2D5 /* PhotosViewController.swift in Sources */,
 				9CDD7B0C1DE6E3D30058B2D5 /* PhotoWriter.swift in Sources */,
 				9CE7E5DF1DE5A40A00C8BA5A /* MainViewController.swift in Sources */,
